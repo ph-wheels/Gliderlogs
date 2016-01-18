@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1250dp"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:weightSum="1.0"
+    android:windowSoftInputMode="stateVisible|adjustPan" >
+
+    <TableRow
+        android:layout_weight="0.4"
+        android:weightSum="1.0" >
+
+        <WebView
+            android:id="@+id/webview_1"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp" />
+
+        <TableLayout
+            android:layout_weight="0.6"
+            android:weightSum="1.0" >
+
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_1"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText61"
+                    android:layout_width="250dp"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText62"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+            <!--  added -->
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView61a"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_1a"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText61a"
+                    android:layout_width="250dp"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView62a"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_2a"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText62a"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+			<!-- end -->
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_3"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText63"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_5"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText65"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_4"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText64"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_6"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText66"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_7"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText67"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView67a"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_7a"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText67a"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1.0"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_8"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText68"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_9"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText69"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textNoSuggestions"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1.0"
+                android:gravity="top"
+                android:weightSum="1.0" >
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_10"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText70"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:lines="5"
+                    android:scrollbars="vertical" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:text="@string/meteo_11"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText71"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:lines="5"
+                    android:scrollbars="vertical" />
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editText81"
+                    android:layout_width="800dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:lines="12"
+                    android:scrollbars="vertical" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/button_close"
+                    android:layout_width="50dp"
+                    android:gravity="center"
+                    android:text="@string/exit_btn" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>

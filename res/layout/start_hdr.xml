@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_weight="1.0"
+            android:weightSum="1.0" >
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_registration"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label2a"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_call"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_type"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label3a"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_instruction"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_pilot"
+                android:lines="1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/label5"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_copilot"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label6"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_started"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label7"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_landed"
+                android:lines="1"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/label8"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_duration"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label9"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_launch"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/label10"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:hint="@string/hdr_notes"
+                android:lines="1"
+                android:textSize="24sp" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1.0"
+            android:weightSum="1.0" >
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="0dip"
+                android:layout_height="3dip"
+                android:layout_weight="1"
+                android:background="#FF909090"
+                android:padding="5dip" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

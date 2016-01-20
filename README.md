@@ -5,7 +5,11 @@ available to this app with REST api which also should handle the DB security.
   needed tabels are: flights, members, gliders, reservation, rooster
 the required fields by table can be found in the GliderLogTables.java file
 Typically these tables reside on an web server which also host an DB engine like
-MySQL or MariaDB.
+MySQL or MariaDB. Additional to the DB tables a couple of pages, most likely in PHP,
+will make up the interface to connect from the internet to the database tables as
+to provide access and security, more info can be found on this topic, link:
+http://wiki.servicenow.com/index.php?title=REST_API#gsc.tab=0
+
 
 
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1250dp"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:weightSum="1.0"
+    android:windowSoftInputMode="stateVisible|adjustPan" >
+
+    <TableRow
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+                <EditText
+                    android:id="@+id/editText91"
+                    android:layout_width="800dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:hint="@string/meteo_nop"
+                    android:inputType="textMultiLine|textNoSuggestions"
+                    android:lines="12"
+                    android:scrollbars="vertical" />
+    </TableRow>
+    
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="@string/exit_btn" />
+    </TableRow>
+
+</TableLayout>

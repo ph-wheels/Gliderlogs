@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_newflight.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-hdpi\\menu_newflight.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\space_sl.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-hdpi\\space_sl.png"
+    }
+]

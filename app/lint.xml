@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ValidFragment">
+        <ignore path="src/com/ezac/gliderlogs/DatePickerDialogFragment.java" />
+        <ignore path="src/com/ezac/gliderlogs/TimePickerDialogFragment.java" />
+    </issue>
+</lint>

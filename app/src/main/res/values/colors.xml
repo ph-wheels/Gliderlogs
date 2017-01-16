@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <color name="background_color">#888888</color> -->
+    <color name="text_blue_color">#6495ED</color>
+    <color name="text_red_color">#FFCC0000</color>
+    <!-- <color name="background_custom">#B8B8B8</color> -->
+
+</resources>

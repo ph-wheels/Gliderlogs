@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1250dp"
+    android:layout_height="wrap_content"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:weightSum="1.0"
+    android:windowSoftInputMode="stateVisible|adjustPan" >
+
+    <TableRow
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+        <WebView
+            android:id="@+id/webview_1"
+            android:layout_width="1200dp"
+            android:layout_height="700dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="@string/exit_btn" />
+    </TableRow>
+
+</TableLayout>

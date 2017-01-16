@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_member.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\add_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toast_layout.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_edit.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\start_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\option_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\option_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mem_info_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\mem_info_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notam_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\notam_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\report_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weather_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\weather_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flarm_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\flarm_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\view_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mem_info_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\mem_info_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\flarm_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\flarm_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reservation_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\reservation_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\on_duty_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\on_duty_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ezac_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\ezac_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\on_duty_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\on_duty_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\reservation_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\reservation_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\start_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\passenger_hdr.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\passenger_hdr.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_row.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\start_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\services.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\services.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\add_glider.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\add_glider.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\report_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\report_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\passenger_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\passenger_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\start_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\layout\\member_list.xml",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\layout\\member_list.xml"
+    }
+]

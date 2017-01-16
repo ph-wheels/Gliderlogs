@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="name_app">GliderLogs</string>
+    <string name="name_meteo">Weer Overzicht 1</string>
+    <string name="name_graph">Weer Overzicht 2</string>
+    <string name="name_ogn_0">OGN Flarm</string>
+    <string name="name_ogn_1">OGN Flarm Local</string>
+    <string name="name_adsb_0">ADS-B Tracking</string>
+    <string name="name_adsb_1">ADS-B Tracking local</string>
+    <string name="name_notam">Notam 2014</string>
+    <string name="name_ezac">EZAC Web Site</string>
+    <string name="name_detail">Vlucht Details</string>
+    <string name="name_report">Dag Overzicht</string>
+    <string name="name_passenger">Passagiers lijst</string>
+    <string name="name_member">Leden Details</string>
+    <string name="name_reservation">Reserverings lijst</string>
+    <string name="name_on_duty">Rooster lijst</string>
+    <string name="flights_none">Er zijn op dit moment geen vluchten ingevoerd</string>
+    <string name="flight_date">Datum *</string>
+    <string name="flight_registration">Registratie *</string>
+    <string name="flight_type">Soort *</string>
+    <string name="flight_instruction">Instructie</string>
+    <string name="flight_pilot">Gezagvoerder *</string>
+    <string name="flight_copilot">Co-Piloot</string>
+    <string name="flight_started">Start tijd</string>
+    <string name="flight_landed">Landings tijd</string>
+    <string name="flight_duration">Vlucht duur</string>
+    <string name="flight_launch">Start Methode *</string>
+    <string name="flight_notes">Opmerkingen</string>
+    <string name="flight_regi_btn">Extra</string>
+    <string name="flight_norm">Norm</string>
+    <string name="flight_pass">Pass</string>
+    <string name="flight_dona">Dona</string>
+    <string name="flight_club">Club</string>
+    <string name="flight_winch">Lier</string>
+    <string name="flight_tow">Sleep</string>
+    <string name="flight_motor">Motor</string>
+    <string name="no_data">--</string>
+    <string name="flight_filter">Selecteer de starts van :</string>
+    <string name="flight_edit_btn">Bewaar</string>
+    <string name="flight_again_btn">Vlucht dupliceren</string>
+    <string name="flight_quit_btn">Terug</string>
+    <string name="flight_time_btn">Tijd</string>
+    <string name="flight_clear_btn">Nu / Wis</string>
+    <string name="flight_member">Naam</string>
+    <string name="flight_member_detail_btn">Info</string>
+    <string name="flight_glider">Registratie</string>
+    <string name="flight_glider_detail_btn">Info</string>
+    <string name="flight_info">Detail info</string>
+    <string name="pass_date_btn">Datum</string>
+    <string name="pass_close_btn">Terug</string>
+    <string name="hdr_date">Datum</string>
+    <string name="hdr_registration">Registratie</string>
+    <string name="hdr_call">RL</string>
+    <string name="hdr_type">Soort</string>
+    <string name="hdr_instruction">Ins</string>
+    <string name="hdr_pilot">Gezagvoerder</string>
+    <string name="hdr_copilot">Co-Piloot</string>
+    <string name="hdr_started">Start</string>
+    <string name="hdr_landed">Einde</string>
+    <string name="hdr_duration">Duur</string>
+    <string name="hdr_launch">M</string>
+    <string name="hdr_notes">Opmerkingen</string>
+    <string name="hdr_starts">Starts</string>
+    <string name="hdr_id">Ref</string>
+    <string name="hdr_time">Tijd</string>
+    <string name="hdr_name">Naam</string>
+    <string name="hdr_phone">Telefoon</string>
+    <string name="hdr_period">Periode</string>
+    <string name="hdr_kind">Soort</string>
+    <string name="hdr_goal">Doel</string>
+    <string name="hdr_reserve">Reserve</string>
+    <string name="hdr_d_period">Periode</string>
+    <string name="hdr_d_duty">Dienst</string>
+    <string name="hdr_d_name">Naam</string>
+    <string name="hdr_m_name">Naam</string>
+    <string name="hdr_m_address">Straat</string>
+    <string name="hdr_m_city">Plaats</string>
+    <string name="hdr_m_phone">Telefoon</string>
+    <string name="hdr_m_gsm">GSM</string>
+    <string name="hdr_m_status">St In Ll</string>
+    <string name="hdr_l_reg">Reg</string>
+    <string name="hdr_l_mdl">Model</string>
+    <string name="hdr_l_cn">Call</string>
+    <string name="hdr_l_flm">Flarm</string>
+    <string name="hdr_l_lat">Lat</string>
+    <string name="hdr_l_lon">Lon</string>
+    <string name="hdr_l_alt">Alt</string>
+    <string name="hdr_l_spd">Speed</string>
+    <string name="hdr_l_trk">Track</string>
+    <string name="hdr_l_cmb">Climb</string>
+    <string name="hdr_l_trn">Turn</string>
+    <string name="hdr_l_tim">Time</string>
+    <string name="action_misc">Opties</string>
+    <string name="action_db_close">Dag Overzicht</string>
+    <string name="action_db_export_CSV">Export naar CSV</string>
+    <string name="action_db_start">Dag opstarten</string>
+    <string name="action_db_pass">P_Lijst verversen</string>
+    <string name="action_insert">Nieuwe vlucht</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_all">Alles </string>
+    <string name="action_ready">Start </string>
+    <string name="action_open">Open </string>
+    <string name="action_45min">45min </string>
+    <string name="action_my">Logs </string>
+    <string name="action_about"> Info </string>
+    <string name="action_extra"> Toevoegen </string>
+    <string name="action_meteo_group">Weer</string>
+    <string name="action_meteo">Meteo </string>
+    <string name="action_rasp">Rasp-Blip </string>
+    <string name="action_pass">Passagiers </string>
+    <string name="action_resv">Reservering </string>
+    <string name="action_duty">Rooster </string>
+    <string name="action_nop"></string>
+	<string name="action_ogn_flarm">OGN Flarm</string>
+    <string name="action_ogn_lcl">OGN Local</string>
+    <string name="action_adsb">ADS-B Tracking</string>
+    <string name="action_adsb_lcl">ADS-B Local</string>
+    <string name="action_notam_nld">Notam NL</string>
+    <string name="action_notam_blx">Notam Benulux</string>
+    <string name="action_notam_be">Notam BE</string>
+    <string name="action_ezac">Ezac site</string>
+    <string name="action_leden">Leden info</string>
+    <string name="action_services">Services</string>
+    <string name="action_various">Diverse</string>
+    <string name="action_info">Info</string>
+    <string name="service_export">Exporteer eerst file(s)</string>
+    <string name="service_hdr">Wilt u een algemene reset wilt uitvoeren ??</string>
+    <string name="service_db">Database</string>
+    <string name="service_csv">CSV</string>
+    <string name="service_password">Service code</string>
+    <string name="add_regi">Registration</string>
+    <string name="add_call">Roep Letters</string>
+    <string name="add_seat">Vliegtuigtype </string>
+    <string name="add_two">Tweezitter</string>
+    <string name="add_private">Privaat</string>
+    <string name="add_club">Private eigenaar</string>
+    <string name="setting_hdr"> Instellingen </string>
+    <string name="setting_url"> URL *</string>
+    <string name="setting_url_hint">http://xxx.yyy.zzz/folder/api/</string>
+    <string name="setting_pre"> Vluchttijd </string>
+    <string name="setting_pre_hint"> Vluchttijd in min.</string>
+    <string name="setting_scn"> Scan Interval *</string>
+    <string name="setting_scn_hint"> Interval in sec.</string>
+    <string name="setting_key"> User *</string>
+    <string name="setting_key_hint"> De EZAC \'Gebruiker\' invullen.</string>
+    <string name="setting_secret"> Code *</string>
+    <string name="setting_secret_hint"> De EZAC \'Code\' code invullen.</string>
+    <string name="setting_station"> Meteo Station *</string>
+    <string name="setting_station_hint"> Meteo Station Code</string>
+    <string name="setting_metar"> Metar Stations *</string>
+    <string name="setting_metar_hint"> Metar_1;Metar_2</string>
+    <string name="setting_ntp"> NTP Server </string>
+    <string name="setting_ntp_hint"> NTP Server </string>
+    <string name="setting_heading">Veld orientatie *</string>
+    <string name="setting_heading_hint">Veld orientatie</string>
+    <string name="meteo_1"> Station naam     </string>
+    <string name="meteo_2"> Windsnelheid (m/s) </string>
+    <string name="meteo_1a"> Regen (mm/uur) </string>
+    <string name="meteo_2a"> Windstoten (m/s) </string>
+    <string name="meteo_3"> Luchtdruk (Hpa)    </string>
+    <string name="meteo_4"> Rel. Vochtheid (%) </string>
+    <string name="meteo_5"> Windrichting (&#186;) </string>
+    <string name="meteo_6"> Windrichting     </string>
+    <string name="meteo_7"> Temperatuur (&#186;C) </string>
+    <string name="meteo_7a"> Wolken basis (m)</string>
+    <string name="meteo_8"> Zons opgang      </string>
+    <string name="meteo_9"> Zons ondergang   </string>
+    <string name="meteo_10"> METAR #1   </string>
+    <string name="meteo_11"> METAR #2   </string>
+    <string name="meteo_12"> KNMI info</string>
+    <string name="meteo_nop"></string>
+    <string name="exit_btn">Terug</string>
+    <string name="menu_insert">Nieuwe vlucht</string>
+    <string name="menu_delete">Klik hier en deze vlucht wordt verwijderd</string>
+    <string name="menu_flags">Menu Tabs</string>
+    <string name="start_option">Opstarten *</string>
+    <string name="menu_ezac">Ezac</string>
+    <string name="menu_meteo">Meteo</string>
+    <string name="menu_notam">Notam</string>
+    <string name="menu_ogn_flarm">Flarm</string>
+    <string name="menu_ogn_trk">OGN Trk</string>
+	<string name="menu_adsb_trk">ADS-B trk</string>
+	<string name="menu_adsb_lcl">ADS-B lcl</string>
+    <string name="menu_nop"></string>
+    <string name="start_ini">Wis niet verwerkte</string>
+    <string name="start_net">Automatisch Laden</string>
+    <string name="menu_locked">Items met \'*\' vereisen Service Code !</string>
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+
+    <string-array name="meteo_arrays">
+        <item>Meetstation Arcen</item>
+        <item>Meetstation Arnhem</item>
+        <item>Meetstation Berkhout</item>
+        <item>Meetstation Cadzand</item>
+        <item>Meetstation De Bilt</item>
+        <item>Meetstation Den Helder</item>
+        <item>Meetstation Eindhoven</item>
+        <item>Meetstation Ell</item>
+        <item>Meetstation Euro platform</item>
+        <item>Meetstation Gilze Rijen</item>
+        <item>Meetstation Groenlo-Hupsel</item>
+        <item>Meetstation Groningen</item>
+        <item>Meetstation Hansweert</item>
+        <item>Meetstation Heino</item>
+        <item>Meetstation Herwijnen</item>
+        <item>Meetstation Hoek van Holland</item>
+        <item>Meetstation Hoofdplaat</item>
+        <item>Meetstation Hoogeveen</item>
+        <item>Meetstation Hoorn Terschelling</item>
+        <item>Meetstation Houtribdijk</item>
+        <item>Meetstation Huibertgat</item>
+        <item>Meetstation IJmond</item>
+        <item>Meetstation IJmuiden</item>
+        <item>Meetstation Katwijk</item>
+        <item>Meetstation Lauwersoog</item>
+        <item>Meetstation LE Goeree</item>
+        <item>Meetstation Leeuwarden</item>
+        <item>Meetstation Lelystad</item>
+        <item>Meetstation Lopik-Cabauw</item>
+        <item>Meetstation Maastricht</item>
+        <item>Meetstation Marknesse</item>
+        <item>Meetstation Nieuw Beerta</item>
+        <item>Meetstation Oosterschelde</item>
+        <item>Meetstation Rotterdam</item>
+        <item>Meetstation Rotterdam Geulhaven</item>
+        <item>Meetstation Schaar</item>
+        <item>Meetstation Schiphol</item>
+        <item>Meetstation Stavenisse</item>
+        <item>Meetstation Stavoren</item>
+        <item>Meetstation Tholen</item>
+        <item>Meetstation Twente</item>
+        <item>Meetstation Vlakte aan de Raan</item>
+        <item>Meetstation Vlieland</item>
+        <item>Meetstation Vlissingen</item>
+        <item>Meetstation Volkel</item>
+        <item>Meetstation Westdorpe</item>
+        <item>Meetstation Wijdenes</item>
+        <item>Meetstation Wijk aan Zee</item>
+        <item>Meetstation Woensdrecht</item>
+        <item>Meetstation Zeeplatform F-3</item>
+        <item>Meetstation Zeeplatform K13</item>
+    </string-array>
+    <string-array name="meteo_id_arrays">
+        <item>6391</item>
+        <item>6275</item>
+        <item>6249</item>
+        <item>6308</item>
+        <item>6260</item>
+        <item>6235</item>
+        <item>6370</item>
+        <item>6377</item>
+        <item>6321</item>
+        <item>6350</item>
+        <item>6283</item>
+        <item>6280</item>
+        <item>6315</item>
+        <item>6278</item>
+        <item>6356</item>
+        <item>6330</item>
+        <item>6311</item>
+        <item>6279</item>
+        <item>6251</item>
+        <item>6258</item>
+        <item>6285</item>
+        <item>6209</item>
+        <item>6225</item>
+        <item>6210</item>
+        <item>6277</item>
+        <item>6320</item>
+        <item>6270</item>
+        <item>6269</item>
+        <item>6348</item>
+        <item>6380</item>
+        <item>6273</item>
+        <item>6286</item>
+        <item>6312</item>
+        <item>6344</item>
+        <item>6343</item>
+        <item>6316</item>
+        <item>6240</item>
+        <item>6324</item>
+        <item>6267</item>
+        <item>6331</item>
+        <item>6290</item>
+        <item>6313</item>
+        <item>6242</item>
+        <item>6310</item>
+        <item>6375</item>
+        <item>6319</item>
+        <item>6248</item>
+        <item>6257</item>
+        <item>6340</item>
+        <item>6239</item>
+        <item>6252</item>
+    </string-array>
+
+    <string-array name="heading_arrays">
+        <item>N   - Z</item>
+        <item>NNO - ZZW</item>
+        <item>NO  - ZW</item>
+        <item>ONO - WZW</item>
+        <item>O   - W</item>
+        <item>OZO - WNW</item>
+        <item>ZO  - NW</item>
+        <item>ZZO - NNW</item>
+    </string-array>   
+</resources>

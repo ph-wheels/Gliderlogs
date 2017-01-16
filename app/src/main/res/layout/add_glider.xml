@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.Holo.Dialog" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_regi"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+
+        <EditText
+            android:id="@+id/editTextInput1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-"
+            android:inputType="textNoSuggestions"
+            android:maxLength="10" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_call"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+
+        <EditText
+            android:id="@+id/editTextInput2"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+            android:inputType="textNoSuggestions"
+            android:maxLength="5" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_seat"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+
+        <CheckBox
+            android:id="@+id/editCheckInput3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:checked="false"
+            android:text="@string/add_two" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/add_private"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+
+        <CheckBox
+            android:id="@+id/editCheckInput4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:checked="false"
+            android:text="@string/add_club" />
+    </TableRow>
+
+</TableLayout>

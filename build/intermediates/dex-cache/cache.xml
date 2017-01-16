@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-annotations-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.3_8c67a0fa3ac348eb97d651ea90997d69dbde8653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6f6d7cfbe010cd222e4c7ad10708edd69f3f907b">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c7c2eb16b01f948fbff47a7112f138222cdc84ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\acra-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8af4566b80052ebd13722d84c857c4c172a93d68">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\acra-4.3.2_a4bc013e266bd0860b287100da709c28381ee20e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-databind-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.3_71ce523788c8bb797adbf62eab750d08d3ba755d.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jsoup-1.7.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3_bf4a94ce02048ed5a195f362ffbe487085dfa9fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ad819e8cea9417eb21ee563b005eafd382f8ab79">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\instant-run_603dfb50d01d96e9c66ddc996d1abbacdde1960a.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\signpost-commonshttp4-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.2_f692cd0da8bedf60c3f95a4499ba98500a3c2f2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3_291f673716c94d2237f3da22c4d6fb7b051bbc65.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-databind-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-databind-2.2.3_71ce523788c8bb797adbf62eab750d08d3ba755d.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="616f8b2ec06a004209b3a1c16c760d29cab836f4">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c7c2eb16b01f948fbff47a7112f138222cdc84ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-annotations-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.2.3_8c67a0fa3ac348eb97d651ea90997d69dbde8653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.0\support-v4-19.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="afee690af14bd2c32d400cdf78e746fd45c386fa">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\support-v4-19.0.0_aaf7907029770740f14dcd3d8f94e5dd89c660d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.0\support-v4-19.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="afee690af14bd2c32d400cdf78e746fd45c386fa">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\support-v4-19.0.0_aaf7907029770740f14dcd3d8f94e5dd89c660d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2_9d1478b986a8fdc704b3c6b5e40a2c0ce009d0c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jackson-core-2.2.3_291f673716c94d2237f3da22c4d6fb7b051bbc65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\jsoup-1.7.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3_bf4a94ce02048ed5a195f362ffbe487085dfa9fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\signpost-commonshttp4-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.2_f692cd0da8bedf60c3f95a4499ba98500a3c2f2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7173a3e4d8f901112b37d398f3906c40931db14a">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\instant-run_603dfb50d01d96e9c66ddc996d1abbacdde1960a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2_9d1478b986a8fdc704b3c6b5e40a2c0ce009d0c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\paul\StudioProjects\GliderLogs\app\libs\acra-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8af4566b80052ebd13722d84c857c4c172a93d68">
+        <dex dex="C:\Users\paul\StudioProjects\GliderLogs\app\build\intermediates\pre-dexed\debug\acra-4.3.2_a4bc013e266bd0860b287100da709c28381ee20e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:windowSoftInputMode="stateVisible|adjustPan" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView0"
+            android:text="@string/flight_filter"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <View
+            android:id="@+id/line1"
+            android:layout_span="3"
+            android:layout_height="3dip"
+            android:background="#FF909090"
+            android:padding="5dip" /><!-- "fill_parent"  android:layout_width="fill_parent" -->
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:text="@string/flight_member"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/flight_member"
+            android:layout_width="250dp"
+            android:hint="@string/flight_member" />
+
+        <Button
+            android:id="@+id/flight_member_detail"
+            android:layout_width="100dp"
+            android:text="@string/flight_member_detail_btn" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:text="@string/flight_glider"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/flight_glider"
+            android:layout_width="250dp"
+            android:hint="@string/flight_glider" />
+        
+        <Button
+            android:id="@+id/flight_glider_detail"
+            android:layout_width="100dp"
+            android:text="@string/flight_glider_detail_btn" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:text="@string/flight_info"
+            android:textStyle="bold" />
+        
+		<EditText
+            android:id="@+id/editText1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:hint="@string/meteo_nop"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:lines="3"
+            android:scrollbars="vertical" />
+	</TableRow>
+</TableLayout>

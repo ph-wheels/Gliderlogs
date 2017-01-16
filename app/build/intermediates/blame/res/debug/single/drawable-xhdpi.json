@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\error.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\error.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ok.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\ok.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\globe_connected.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\globe_connected.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\check.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\space_sl.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\space_sl.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\menu_newflight.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\menu_newflight.png"
+    },
+    {
+        "merged": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\globe_disconnect.png",
+        "source": "C:\\Users\\paul\\StudioProjects\\GliderLogs\\app\\src\\main\\res\\drawable-xhdpi\\globe_disconnect.png"
+    }
+]

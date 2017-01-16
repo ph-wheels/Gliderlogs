@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.Holo.Dialog" >
+
+    <!-- 2 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_weight="1"
+            android:layout_span="3"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/service_hdr"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_weight=".3"
+            android:layout_height="wrap_content"
+            android:text="@string/service_export"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/service_db"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:checked="true"
+            android:text="@string/service_db" />
+
+        <CheckBox
+            android:id="@+id/service_csv"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:checked="true"
+            android:text="@string/service_csv" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_weight=".4"
+            android:layout_height="wrap_content"
+            android:text="@string/service_password"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextDialogUserInput"
+            android:layout_weight=".4"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890- "
+            android:inputType="textPassword"
+            android:maxLength="20" />
+    </TableRow>
+
+</TableLayout>

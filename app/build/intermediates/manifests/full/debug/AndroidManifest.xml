@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ezac.gliderlogs"
+    android:versionCode="1"
+    android:versionName="3.0rc1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <supports-screens
+        android:largeScreens="false"
+        android:normalScreens="false"
+        android:requiresSmallestWidthDp="600"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.ezac.gliderlogs.GliderLogs"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher" >
+
+        <!-- comment the above line as to disable bug notification report -->
+        <!-- and the uncomment the next line -->
+        <!-- android:label="@string/app_name" > -->
+        <!-- android:screenOrientation="landscape" -->
+        <activity
+            android:name="com.ezac.gliderlogs.FlightOverviewActivity"
+            android:label="@string/name_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightDetailActivity"
+            android:label="@string/name_detail"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightReportActivity"
+            android:label="@string/name_report"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightWeatherActivity"
+            android:label="@string/name_meteo"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightRaspActivity"
+            android:label="@string/name_graph"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightFlarmActivity"
+            android:label="@string/name_ogn_1"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightADSBActivity"
+            android:label="@string/name_adsb_1"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightGliderActivity"
+            android:label="@string/name_adsb_0"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightNotamNLDActivity"
+            android:label="@string/name_notam"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightNotamBLXActivity"
+            android:label="@string/name_notam"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightOGNActivity"
+            android:label="@string/name_ogn_0"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightEzacActivity"
+            android:label="@string/name_ezac"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightPassengerActivity"
+            android:label="@string/name_passenger"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightMemberActivity"
+            android:label="@string/name_member"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightReservationActivity"
+            android:label="@string/name_reservation"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.ezac.gliderlogs.FlightOnDutyActivity"
+            android:label="@string/name_on_duty"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+        </activity>
+
+        <provider
+            android:name="com.ezac.gliderlogs.contentprovider.FlightsContentProvider"
+            android:authorities="com.ezac.gliderlogs.contentprovider" >
+        </provider>
+    </application>
+
+</manifest>

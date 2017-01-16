@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:theme="@android:style/Theme.Holo.Dialog" >
+
+    <!-- 2 columns -->
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center_horizontal"
+            android:text="@string/setting_hdr"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_blue_color" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_url"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_url"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_url_hint"
+            android:inputType="textUri"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_pre"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_pre_hint"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_scn"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_scn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:hint="@string/setting_scn_hint"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_key"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_key"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_key_hint"
+            android:singleLine="true" />
+    </TableRow>
+ <!--  -->
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_secret"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_secret"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_secret_hint"
+            android:inputType="textPassword"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_station"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/setting_station"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/meteo_arrays"
+            android:hint="@string/setting_station_hint" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_metar"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_metar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_metar_hint"
+            android:singleLine="true" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:id="@+id/textView5a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/start_option"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/setting_menu01"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".5"
+            android:text="@string/start_ini" />
+        
+        <CheckBox
+            android:id="@+id/setting_menu02"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".5"
+            android:text="@string/start_net" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:id="@+id/textView5b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/menu_flags"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/setting_menu11"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:checked="false"
+            android:text="@string/menu_ezac" />
+
+        <CheckBox
+            android:id="@+id/setting_menu12"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:text="@string/menu_meteo" />
+
+        <CheckBox
+            android:id="@+id/setting_menu13"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:text="@string/menu_notam" />
+
+        <CheckBox
+            android:id="@+id/setting_menu14"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:text="@string/menu_ogn_flarm" />
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:id="@+id/textView5c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:text="@string/menu_nop"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/setting_menu21"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:checked="false"
+            android:text="@string/menu_adsb_trk" />
+
+        <CheckBox
+            android:id="@+id/setting_menu22"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight=".25"
+            android:text="@string/menu_adsb_lcl" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_heading"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/setting_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/heading_arrays"
+            android:hint="@string/setting_heading_hint" />
+    </TableRow>
+<!-- 
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_ntp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/setting_ntp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:hint="@string/setting_ntp_hint"
+            android:singleLine="true" />
+    </TableRow>
+ -->
+     <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_weight=".4"
+            android:layout_height="wrap_content"
+            android:text="@string/service_password"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/editTextDialogUserInput"
+            android:layout_weight=".4"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890- "
+            android:inputType="textPassword"
+            android:maxLength="20" />
+    </TableRow>
+    
+	<TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="@string/menu_locked"
+            android:textColor="@color/text_red_color"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</TableRow>
+</TableLayout>

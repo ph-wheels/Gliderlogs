@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TableRow
+        android:layout_weight="1.0"
+        android:weightSum="1.0" >
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:hint="@string/hdr_registration"
+            android:lines="1"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:hint="@string/hdr_starts"
+            android:lines="1"
+            android:textSize="24sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:hint="@string/hdr_duration"
+            android:lines="1"
+            android:textSize="24sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="@string/exit_btn" />
+    </TableRow>
+
+</TableLayout>

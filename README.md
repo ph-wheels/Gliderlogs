@@ -1,4 +1,7 @@
 # Gliderlogs
+
+Most files have been replaced due to change of IDE from Eclipe to Android Studio.
+
 An Android based Glider flight logging tool intended to be used on 10" android tablet.
 This android app requires an web server back-end which make some required tables
 available to this app with an REST api which also should handle the DB security,
